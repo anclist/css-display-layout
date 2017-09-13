@@ -3,7 +3,6 @@
 *::after {
   margin: 0;
 }
-
 .wrapper {
     width: 800px;
     margin: 0 auto;
@@ -14,7 +13,6 @@ header {
     text-align: center;
     margin: 0;
 }
-
 header > h1 {
     padding: 10px;
     margin: 0;
@@ -25,7 +23,6 @@ ul {
   padding: 5px 0;
   margin: 0 0 5px;
 }
-
 ul li {
   display: inline-block;
 }
@@ -35,7 +32,6 @@ li a {
   color: #ffffff;
   padding: 5px 2px;
 }
-
 footer {
   background-color: #000000;
   color: #ffffff;
@@ -43,7 +39,6 @@ footer {
   font-size: 80%;
   padding: 8px 0 2px;
 }
-
 .counter-banner {
   background-color: #75FFD4;
   width: 80%;
@@ -54,14 +49,13 @@ h2 {
   font-weight: normal;
 }
 #counter {
-  border-bottom: 4px solid #FFD52B;
+  border-bottom: 3px solid #FFD52B;
   font-weight: bold;
 }
-
 #counter:hover {
   color: red;
+  cursor: pointer;
 }
-
 .picture-container {
   width: 80%;
   margin: 0 auto;
@@ -70,11 +64,9 @@ h2 {
 .card {
   display: inline-block;
 }
-
 img {
   margin: 0;
 }
-
 .picture-footer {
   background-color: #FFD52B;
   margin: 1px 0 7px 0;
