@@ -48,3 +48,11 @@ h2 {
 #counter {
   border-bottom: 4px solid #FFD52B;
 }
+
+.picture-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.card {
+  display: inline-block;
+}
