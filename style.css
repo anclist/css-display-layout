@@ -3,3 +3,12 @@
 *::after {
   box-sizing: content-box;
 }
+header {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+}
