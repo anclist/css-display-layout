@@ -1,19 +1,19 @@
-*,
-*::before,
-*::after {
-  box-sizing: content-box;
-}
 header {
     background-color: #333333;
     color: #ffffff;
     text-align: center;
-    margin: 1px;
+    margin: 0;
 }
 
 header > h1 {
     padding: 10px;
 }
 }
+nav {
+  width: 60%;
+  margin: 0 auto;
+}
+
 ul {
   list-style: none;
   text-align: center;
@@ -21,7 +21,6 @@ ul {
 
 ul li {
   display: inline-block;
-  margin: 0 auto;
 }
 li a {
   text-decoration: none;
@@ -36,4 +35,16 @@ footer {
   text-align: center;
   font-size: 80%;
   padding: 8px 0 2px;
+}
+
+.counter-banner {
+  background-color: #75FFD4;
+  width: 95%;
+  margin: 0 auto;
+}
+h2 {
+  padding: 8px;
+}
+#counter {
+  border-bottom: 4px solid #FFD52B;
 }
