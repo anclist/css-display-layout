@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
 header {
     background-color: #333333;
     color: #ffffff;
@@ -42,7 +46,7 @@ footer {
 
 .counter-banner {
   background-color: #75FFD4;
-  width: 95%;
+  width: 80%;
   margin: 8px auto;
 }
 h2 {
@@ -59,8 +63,9 @@ h2 {
 }
 
 .picture-container {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
+  padding: 5px auto;
 }
 .card {
   display: inline-block;
