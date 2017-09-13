@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
 header {
     background-color: #333333;
     color: #ffffff;
@@ -7,16 +13,13 @@ header {
 
 header > h1 {
     padding: 10px;
+    margin: 0;
 }
-}
-nav {
-  width: 60%;
-  margin: 0 auto;
-}
-
 ul {
   list-style: none;
   text-align: center;
+  padding: 5px 0;
+  margin: 0 0 5px;
 }
 
 ul li {
@@ -25,8 +28,8 @@ ul li {
 li a {
   text-decoration: none;
   background-color: #D3D3D3;
-  padding: 5px 2px;
   color: #ffffff;
+  padding: 5px 2px;
 }
 
 footer {
@@ -40,13 +43,19 @@ footer {
 .counter-banner {
   background-color: #75FFD4;
   width: 95%;
-  margin: 0 auto;
+  margin: 8px auto;
 }
 h2 {
   padding: 8px;
+  font-weight: normal;
 }
 #counter {
   border-bottom: 4px solid #FFD52B;
+  font-weight: bold;
+}
+
+#counter:hover {
+  color: red;
 }
 
 .picture-container {
@@ -55,4 +64,14 @@ h2 {
 }
 .card {
   display: inline-block;
+}
+
+img {
+  margin: 0;
+}
+
+.picture-footer {
+  background-color: #FFD52B;
+  margin: 1px 0 7px 0;
+  text-align: center;
 }
