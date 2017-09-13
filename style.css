@@ -9,6 +9,27 @@ header {
     text-align: center;
 }
 
-h1 {
+header > h1 {
     padding: 10px;
+}
+ul {
+  list-style: none;
+  margin: 5px auto;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+li a {
+  text-decoration: none;
+  background-color: #D3D3D3;
+  padding: 5px 2px;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
 }
